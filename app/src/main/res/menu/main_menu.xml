@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_kids_fashion"
+            android:icon="@drawable/ic_baseline_child_friendly_24"
+            android:title="Kids Fashion" />
+
+        <item
+            android:id="@+id/nav_men_fashion"
+            android:icon="@drawable/ic_man"
+            android:title="Men Fashion" />
+
+        <item
+            android:id="@+id/nav_women_fashion"
+            android:icon="@drawable/ic_woman"
+            android:title="Women Fashion" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_reply"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>
+
+
+
+
+
